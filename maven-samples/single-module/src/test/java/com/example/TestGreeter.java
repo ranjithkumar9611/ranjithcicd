@@ -50,7 +50,7 @@ public class TestGreeter {
   }
   
        @Test
-  public void greetShouldIncludeGreetingData() {
+  public void greetShouldIncludeGreetingFuck() {
     String someone = "Awasome this test auto build at jenkins";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
